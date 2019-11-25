@@ -1,11 +1,6 @@
 import React, { memo } from 'react'
-import { ActivityIndicator, StyleSheet, View } from 'react-native'
 
-const mainActivityIndicator = props => (
-  <View style={styles.activityIndicatorContainer}>
-    <ActivityIndicator />
-  </View>
-)
+import { ActivityIndicator, StyleSheet, View } from 'react-native'
 
 const styles = StyleSheet.create({
   activityIndicatorContainer: {
@@ -14,5 +9,11 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 })
+
+const mainActivityIndicator = () => (
+  <View style={styles.activityIndicatorContainer}>
+    <ActivityIndicator />
+  </View>
+)
 
 export default memo(mainActivityIndicator)

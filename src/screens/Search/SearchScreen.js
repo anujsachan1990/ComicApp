@@ -1,12 +1,34 @@
 import React, { useState, memo } from 'react'
 import { FlatList, StyleSheet, View, Text } from 'react-native'
+import PropTypes from 'prop-types'
 import { Header, Item, Input, Icon, Card, CardItem, Body } from 'native-base'
 import theme from '../../styles/theme'
 import apiService from '../../services/apiURL'
 import MainContainer from '../../components/MainContainer/MainContainer'
 import MainActivityIndicator from '../../components/MainActivityIndicator/MainActivityIndicator'
 import locale from '../../lang/en-us'
-import { fetchData } from '../../utilities/index'
+import utils from '../../utilities/index'
+
+const styles = StyleSheet.create({
+  content: {
+    flex: 1,
+  },
+  screenText: {
+    fontSize: theme.font.heading,
+    marginTop: 150,
+    textAlign: 'center',
+  },
+  flatListContainer: {
+    padding: theme.padding,
+  },
+  itemBg: {
+    backgroundColor: theme.color.white,
+  },
+  cardText: {
+    fontSize: theme.font.bodycopy,
+    color: theme.color.white,
+  },
+})
 
 const SearchScreen = props => {
   const [isLoading, setLoading] = useState(false)
@@ -16,18 +38,13 @@ const SearchScreen = props => {
     if (searchStr.trim() !== '' && searchStr.length >= 3) {
       const url = `${apiService.getResultbyTitle}${searchStr}`
       setLoading(true)
-      fetchData(url)
-        .then(data => {
-          setResult({
-            comics: data.comics ? data.comics.slice(0, 3) : [],
-            fullResults: data.comics ? data.comics.slice(0, 10) : [],
-          })
-          setLoading(false)
+      utils.fetchData(url).then(data => {
+        setResult({
+          comics: data.comics ? data.comics.slice(0, 3) : [],
+          fullResults: data.comics ? data.comics.slice(0, 10) : [],
         })
-        .catch(error => {
-          console.log(locale.apiError, error)
-          setLoading(false)
-        })
+        setLoading(false)
+      })
     } else {
       setResult({})
     }
@@ -100,25 +117,10 @@ const SearchScreen = props => {
   )
 }
 
-export default memo(SearchScreen)
+SearchScreen.propTypes = {
+  navigation: PropTypes.shape({
+    navigate: PropTypes.func.isRequired,
+  }).isRequired,
+}
 
-const styles = StyleSheet.create({
-  content: {
-    flex: 1,
-  },
-  screenText: {
-    fontSize: theme.font.heading,
-    marginTop: 150,
-    textAlign: 'center',
-  },
-  flatListContainer: {
-    padding: theme.padding,
-  },
-  itemBg: {
-    backgroundColor: theme.color.white,
-  },
-  cardText: {
-    fontSize: theme.font.bodycopy,
-    color: theme.color.white,
-  },
-})
+export default memo(SearchScreen)

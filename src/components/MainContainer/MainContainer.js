@@ -1,9 +1,8 @@
 import React, { memo } from 'react'
+import PropTypes from 'prop-types'
 import { StyleSheet } from 'react-native'
 import { Container } from 'native-base'
 import theme from '../../styles/theme'
-
-const mainContainer = ({ children }) => <Container style={styles.content}>{children}</Container>
 
 const styles = StyleSheet.create({
   content: {
@@ -11,4 +10,10 @@ const styles = StyleSheet.create({
   },
 })
 
-export default memo(mainContainer)
+const MainContainer = ({ children }) => <Container style={styles.content}>{children}</Container>
+
+MainContainer.propTypes = {
+  children: PropTypes.node.isRequired,
+}
+
+export default memo(MainContainer)

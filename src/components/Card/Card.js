@@ -1,11 +1,34 @@
 import React, { memo } from 'react'
+import PropTypes from 'prop-types'
 import { StyleSheet, View, Text } from 'react-native'
 import theme from '../../styles/theme'
 import locale from '../../lang/en-us'
 
+const styles = StyleSheet.create({
+  content: {
+    backgroundColor: theme.color.primaryColor,
+    padding: 20,
+    margin: 20,
+    borderRadius: 10,
+    minHeight: 300,
+  },
+  smallText: {
+    fontSize: theme.font.bodycopy,
+    marginTop: 10,
+    color: theme.color.white,
+  },
+  largeText: {
+    fontSize: theme.font.heading,
+    color: theme.color.white,
+  },
+  boldText: {
+    fontWeight: 'bold',
+  },
+})
+
 const Card = ({ item }) => {
   return (
-    <View key={item.diamond_id} style={styles.content}>
+    <View style={styles.content}>
       <Text style={styles.largeText}>{item.title}</Text>
       <Text style={styles.smallText}>
         <Text style={styles.boldText}>{locale.description} </Text>
@@ -29,26 +52,16 @@ const Card = ({ item }) => {
     </View>
   )
 }
-export default memo(Card)
 
-const styles = StyleSheet.create({
-  content: {
-    backgroundColor: theme.color.primaryColor,
-    padding: 20,
-    margin: 20,
-    borderRadius: 10,
-    minHeight: 300,
-  },
-  smallText: {
-    fontSize: theme.font.bodycopy,
-    marginTop: 10,
-    color: theme.color.white,
-  },
-  largeText: {
-    fontSize: theme.font.heading,
-    color: theme.color.white,
-  },
-  boldText: {
-    fontWeight: 'bold',
-  },
-})
+Card.propTypes = {
+  item: PropTypes.shape({
+    title: PropTypes.string.isRequired,
+    price: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    publisher: PropTypes.string.isRequired,
+    release_date: PropTypes.string.isRequired,
+    creators: PropTypes.string.isRequired,
+  }).isRequired,
+}
+
+export default memo(Card)
