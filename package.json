@@ -8,7 +8,6 @@
     "eject": "expo eject",
     "lint": "eslint src"
   },
-
   "dependencies": {
     "expo": "^35.0.0",
     "native-base": "^2.13.8",
