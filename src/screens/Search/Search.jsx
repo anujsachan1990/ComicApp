@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, memo } from "react";
 import { FlatList, StyleSheet, View, Text } from "react-native";
 import { Header, Item, Input, Icon, Card, CardItem, Body } from "native-base";
 
@@ -17,8 +17,8 @@ const SearchScreen = props => {
       fetchData(url)
         .then(data => {
           setResult({
-            comics: data.comics.slice(0, 3),
-            fullResults: data.comics.slice(0, 10)
+            comics: data.comics ? data.comics.slice(0, 3) : [],
+            fullResults: data.comics ? data.comics.slice(0, 10) : []
           });
 
           setLoading(false);
@@ -110,7 +110,7 @@ const SearchScreen = props => {
       </Header>
       <View style={isLoading ? styles.content : styles.flatListContainer}>
         {getContent()}
-        {!results.comics && !results.fullResults && (
+        {!isLoading && !results.comics && !results.fullResults && (
           <Text
             style={{
               fontSize: 20,
@@ -126,7 +126,7 @@ const SearchScreen = props => {
   );
 };
 
-export default SearchScreen;
+export default memo(SearchScreen);
 
 const styles = StyleSheet.create({
   content: {

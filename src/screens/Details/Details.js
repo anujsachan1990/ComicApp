@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, memo } from "react";
 import { StyleSheet } from "react-native";
 import { Content, Text, View } from "native-base";
 import MainContainer from "../../components/MainContainer/MainContainer";
@@ -74,7 +74,7 @@ const DetailsScreen = props => {
   );
 };
 
-export default DetailsScreen;
+export default memo(DetailsScreen);
 
 const styles = StyleSheet.create({
   content: {
