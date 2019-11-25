@@ -5,6 +5,7 @@ import MainContainer from "../../components/MainContainer/MainContainer";
 import MainActivityIndicator from "../../components/MainActivityIndicator/MainActivityIndicator";
 import Card from "../../components/Card/Card";
 import apiService from "../../services/apiURL";
+import theme from "../../styles/theme";
 import { fetchData } from "../../utilities";
 
 const DetailsScreen = props => {
@@ -47,7 +48,7 @@ export default memo(DetailsScreen);
 
 const styles = StyleSheet.create({
   content: {
-    backgroundColor: "#00838d",
+    backgroundColor: theme.color.primaryColor,
     padding: 20,
     margin: 20,
     borderRadius: 10,
