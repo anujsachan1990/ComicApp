@@ -8,6 +8,7 @@
     "eject": "expo eject",
     "lint": "eslint src"
   },
+
   "dependencies": {
     "expo": "^35.0.0",
     "native-base": "^2.13.8",
@@ -35,8 +36,21 @@
     "react-navigation": "^4.0.10",
     "react-navigation-stack": "^1.10.3"
   },
+  "lint-staged": {
+    "*.{js,jsx,css}": [
+      "prettier --write --single-quote",
+      "eslint --fix",
+      "stylelint './src/**/*.js'",
+      "git add"
+    ]
+  },
   "devDependencies": {
     "babel-preset-expo": "^7.1.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "private": true
 }
