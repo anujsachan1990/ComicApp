@@ -1,9 +1,16 @@
-import React from "react";
+import React, { memo } from "react";
 import { StyleSheet } from "react-native";
 import { Container } from "native-base";
+import theme from "../../styles/theme";
 
-const mainContainer = props => (
-  <Container style={{ backgroundColor: "#F3F3F3" }}>{props.children}</Container>
+const mainContainer = ({ children }) => (
+  <Container style={styles.content}>{children}</Container>
 );
 
-export default mainContainer;
+const styles = StyleSheet.create({
+  content: {
+    backgroundColor: theme.color.grey
+  }
+});
+
+export default memo(mainContainer);

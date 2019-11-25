@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import { ActivityIndicator, StyleSheet, View } from "react-native";
 
 const mainActivityIndicator = props => (
@@ -15,4 +15,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default mainActivityIndicator;
+export default memo(mainActivityIndicator);

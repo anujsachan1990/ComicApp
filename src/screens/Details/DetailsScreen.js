@@ -4,6 +4,8 @@ import { Content, Text, View } from "native-base";
 import MainContainer from "../../components/MainContainer/MainContainer";
 import MainActivityIndicator from "../../components/MainActivityIndicator/MainActivityIndicator";
 import Card from "../../components/Card/Card";
+import apiService from "../../services/apiURL";
+import { fetchData } from "../../utilities";
 
 const DetailsScreen = props => {
   const [isLoading, setLoading] = useState(true);
@@ -12,22 +14,12 @@ const DetailsScreen = props => {
   useEffect(() => {
     const { navigation } = props;
     const itemId = navigation.state.params.item.diamond_id;
-    fetchData(`https://api.shortboxed.com/comics/v1/diamond_id/${itemId}`);
+
+    fetchData(`${apiService.getDetailByDiamondId}${itemId}`).then(data => {
+      setDetail({ comicDetail: data });
+      setLoading(false);
+    });
   }, []);
-
-  const fetchData = url => {
-    return fetch(url)
-      .then(response => {
-        return response.json();
-      })
-      .then(responseJson => {
-        setDetail({ comicDetail: responseJson });
-        setLoading(false);
-
-        return responseJson;
-      })
-      .catch(error => console.log("Error fetching data:", error));
-  };
 
   const getcontent = () => {
     return isLoading ? (
