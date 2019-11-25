@@ -2,11 +2,10 @@
 
 ## Technology Stack
 - React JS 
-_ React Native
+- React Native
 - Expo
 - YARN / NPM for package Dependencies
 - ES6 
-
 
 ## Setup
 
@@ -26,7 +25,10 @@ _ React Native
 - Scalable Architecture
 - React latest features: (Hooks, Memo)
 - Localization 
+- API Interceptor
 - Eslint (Airbnb rules)
+- Husky to check code quality before pushing to Repoistory
+
 
 ## Scalable Frontend Architecture
 
