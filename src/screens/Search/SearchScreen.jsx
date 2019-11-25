@@ -55,38 +55,36 @@ const SearchScreen = props => {
   };
 
   const getContent = () => {
-    if (isLoading) {
-      return <MainActivityIndicator />;
-    } else {
-      return (
-        <FlatList
-          data={results.comics}
-          keyExtractor={item => item.title}
-          renderItem={({ item }) => (
-            <Card
+    return isLoading ? (
+      <MainActivityIndicator />
+    ) : (
+      <FlatList
+        data={results.comics}
+        keyExtractor={item => item.title}
+        renderItem={({ item }) => (
+          <Card
+            style={{
+              borderRadius: 5
+            }}
+          >
+            <CardItem
+              button
+              onPress={() => cardItemOnPressHandler(item)}
               style={{
+                backgroundColor: "#00838d",
                 borderRadius: 5
               }}
             >
-              <CardItem
-                button
-                onPress={() => cardItemOnPressHandler(item)}
-                style={{
-                  backgroundColor: "#00838d",
-                  borderRadius: 5
-                }}
-              >
-                <Body>
-                  <Text style={{ fontSize: 16, color: "#fff" }}>
-                    {item.title}
-                  </Text>
-                </Body>
-              </CardItem>
-            </Card>
-          )}
-        />
-      );
-    }
+              <Body>
+                <Text style={{ fontSize: 16, color: "#fff" }}>
+                  {item.title}
+                </Text>
+              </Body>
+            </CardItem>
+          </Card>
+        )}
+      />
+    );
   };
 
   return (
