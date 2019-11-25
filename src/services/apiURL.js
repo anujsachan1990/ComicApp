@@ -1,4 +1,4 @@
-//main API End Point
+// main API End Point
 const apiEndPoint = 'https://api.shortboxed.com/comics/v1/'
 
 export default {
