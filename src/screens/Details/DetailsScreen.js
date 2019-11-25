@@ -1,26 +1,26 @@
-import React, { useState, useEffect, memo } from "react";
-import { StyleSheet } from "react-native";
-import { Content, Text, View } from "native-base";
-import MainContainer from "../../components/MainContainer/MainContainer";
-import MainActivityIndicator from "../../components/MainActivityIndicator/MainActivityIndicator";
-import Card from "../../components/Card/Card";
-import apiService from "../../services/apiURL";
-import theme from "../../styles/theme";
-import { fetchData } from "../../utilities";
+import React, { useState, useEffect, memo } from 'react'
+import { StyleSheet } from 'react-native'
+import { Content, Text, View } from 'native-base'
+import MainContainer from '../../components/MainContainer/MainContainer'
+import MainActivityIndicator from '../../components/MainActivityIndicator/MainActivityIndicator'
+import Card from '../../components/Card/Card'
+import apiService from '../../services/apiURL'
+import theme from '../../styles/theme'
+import { fetchData } from '../../utilities'
 
 const DetailsScreen = props => {
-  const [isLoading, setLoading] = useState(true);
-  const [comicDetail, setDetail] = useState({});
+  const [isLoading, setLoading] = useState(true)
+  const [comicDetail, setDetail] = useState({})
 
   useEffect(() => {
-    const { navigation } = props;
-    const itemId = navigation.state.params.item.diamond_id;
+    const { navigation } = props
+    const itemId = navigation.state.params.item.diamond_id
 
     fetchData(`${apiService.getDetailByDiamondId}${itemId}`).then(data => {
-      setDetail({ comicDetail: data });
-      setLoading(false);
-    });
-  }, []);
+      setDetail({ comicDetail: data })
+      setLoading(false)
+    })
+  }, [props])
 
   const getcontent = () => {
     return isLoading ? (
@@ -29,11 +29,11 @@ const DetailsScreen = props => {
       <View>
         {comicDetail.comicDetail &&
           comicDetail.comicDetail.comics.map(item => {
-            return <Card key={item.diamond_id} item={item} />;
+            return <Card key={item.diamond_id} item={item} />
           })}
       </View>
-    );
-  };
+    )
+  }
 
   return (
     <MainContainer>
@@ -41,10 +41,10 @@ const DetailsScreen = props => {
         {getcontent()}
       </Content>
     </MainContainer>
-  );
-};
+  )
+}
 
-export default memo(DetailsScreen);
+export default memo(DetailsScreen)
 
 const styles = StyleSheet.create({
   content: {
@@ -52,6 +52,6 @@ const styles = StyleSheet.create({
     padding: 20,
     margin: 20,
     borderRadius: 10,
-    minHeight: 300
-  }
-});
+    minHeight: 300,
+  },
+})

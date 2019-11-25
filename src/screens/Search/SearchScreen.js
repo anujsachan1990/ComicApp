@@ -1,48 +1,48 @@
-import React, { useState, memo } from "react";
-import { FlatList, StyleSheet, View, Text } from "react-native";
-import { Header, Item, Input, Icon, Card, CardItem, Body } from "native-base";
-import theme from "../../styles/theme";
-import apiService from "../../services/apiURL";
-import MainContainer from "../../components/MainContainer/MainContainer";
-import MainActivityIndicator from "../../components/MainActivityIndicator/MainActivityIndicator";
-import locale from "../../lang/en-us";
-import { fetchData } from "../../utilities/index";
+import React, { useState, memo } from 'react'
+import { FlatList, StyleSheet, View, Text } from 'react-native'
+import { Header, Item, Input, Icon, Card, CardItem, Body } from 'native-base'
+import theme from '../../styles/theme'
+import apiService from '../../services/apiURL'
+import MainContainer from '../../components/MainContainer/MainContainer'
+import MainActivityIndicator from '../../components/MainActivityIndicator/MainActivityIndicator'
+import locale from '../../lang/en-us'
+import { fetchData } from '../../utilities/index'
 
 const SearchScreen = props => {
-  const [isLoading, setLoading] = useState(false);
-  const [results, setResult] = useState({});
+  const [isLoading, setLoading] = useState(false)
+  const [results, setResult] = useState({})
 
   const searchInputOnChangeTextHandler = searchStr => {
-    if (searchStr.trim() !== "" && searchStr.length >= 3) {
-      let url = `${apiService.getResultbyTitle}${searchStr}`;
-      setLoading(true);
+    if (searchStr.trim() !== '' && searchStr.length >= 3) {
+      const url = `${apiService.getResultbyTitle}${searchStr}`
+      setLoading(true)
       fetchData(url)
         .then(data => {
           setResult({
             comics: data.comics ? data.comics.slice(0, 3) : [],
-            fullResults: data.comics ? data.comics.slice(0, 10) : []
-          });
-          setLoading(false);
+            fullResults: data.comics ? data.comics.slice(0, 10) : [],
+          })
+          setLoading(false)
         })
         .catch(error => {
-          console.log(locale.apiError, error);
-          setLoading(false);
-        });
+          console.log(locale.apiError, error)
+          setLoading(false)
+        })
     } else {
-      setResult({});
+      setResult({})
     }
-  };
+  }
 
   const cardItemOnPressHandler = item => {
-    const { navigate } = props.navigation;
-    navigate("Detail", { item });
-  };
+    const { navigate } = props.navigation
+    navigate('Detail', { item })
+  }
 
   const searchSubmit = () => {
     setResult({
-      comics: results.fullResults
-    });
-  };
+      comics: results.fullResults,
+    })
+  }
 
   const getContent = () => {
     return isLoading ? (
@@ -54,7 +54,7 @@ const SearchScreen = props => {
         renderItem={({ item }) => (
           <Card
             style={{
-              borderRadius: 5
+              borderRadius: 5,
             }}
           >
             <CardItem
@@ -62,7 +62,7 @@ const SearchScreen = props => {
               onPress={() => cardItemOnPressHandler(item)}
               style={{
                 backgroundColor: theme.color.primaryColor,
-                borderRadius: theme.borderRadius
+                borderRadius: theme.borderRadius,
               }}
             >
               <Body>
@@ -72,8 +72,8 @@ const SearchScreen = props => {
           </Card>
         )}
       />
-    );
-  };
+    )
+  }
 
   return (
     <MainContainer>
@@ -97,28 +97,28 @@ const SearchScreen = props => {
         )}
       </View>
     </MainContainer>
-  );
-};
+  )
+}
 
-export default memo(SearchScreen);
+export default memo(SearchScreen)
 
 const styles = StyleSheet.create({
   content: {
-    flex: 1
+    flex: 1,
   },
   screenText: {
     fontSize: theme.font.heading,
     marginTop: 150,
-    textAlign: "center"
+    textAlign: 'center',
   },
   flatListContainer: {
-    padding: theme.padding
+    padding: theme.padding,
   },
   itemBg: {
-    backgroundColor: theme.color.white
+    backgroundColor: theme.color.white,
   },
   cardText: {
     fontSize: theme.font.bodycopy,
-    color: theme.color.white
-  }
-});
+    color: theme.color.white,
+  },
+})

@@ -1,7 +1,7 @@
-import React, { memo } from "react";
-import { StyleSheet, View, Text } from "react-native";
-import theme from "../../styles/theme";
-import locale from "../../lang/en-us";
+import React, { memo } from 'react'
+import { StyleSheet, View, Text } from 'react-native'
+import theme from '../../styles/theme'
+import locale from '../../lang/en-us'
 
 const Card = ({ item }) => {
   return (
@@ -27,9 +27,9 @@ const Card = ({ item }) => {
         <Text style={styles.boldText}>{locale.creators}</Text> {item.creators}
       </Text>
     </View>
-  );
-};
-export default memo(Card);
+  )
+}
+export default memo(Card)
 
 const styles = StyleSheet.create({
   content: {
@@ -37,18 +37,18 @@ const styles = StyleSheet.create({
     padding: 20,
     margin: 20,
     borderRadius: 10,
-    minHeight: 300
+    minHeight: 300,
   },
   smallText: {
     fontSize: theme.font.bodycopy,
     marginTop: 10,
-    color: theme.color.white
+    color: theme.color.white,
   },
   largeText: {
     fontSize: theme.font.heading,
-    color: theme.color.white
+    color: theme.color.white,
   },
   boldText: {
-    fontWeight: "bold"
-  }
-});
+    fontWeight: 'bold',
+  },
+})
