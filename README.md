@@ -17,7 +17,7 @@
 ## Other Commands
 
 - npm run lint (for checking code quality rules)
-- npm run lint (for ejecting App)
+- npm run eject (for ejecting App)
  
 
 ## Features & other Highlights
