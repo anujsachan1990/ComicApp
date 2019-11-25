@@ -5,5 +5,6 @@ export default {
   relaseData: 'Release date :',
   creators: 'Creators :',
   apiError: 'Error fetching data:',
-  screenText: 'Start Typing to Search for a comics',
+  screenText:
+    'Start Typing to Search for  comics.,      Press return to see Upto 10 Results if available',
 }
