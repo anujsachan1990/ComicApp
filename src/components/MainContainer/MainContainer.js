@@ -10,7 +10,9 @@ const styles = StyleSheet.create({
   },
 })
 
-const MainContainer = ({ children }) => <Container style={styles.content}>{children}</Container>
+const MainContainer = ({ children }) => (
+  <Container style={styles.content}>{children}</Container>
+)
 
 MainContainer.propTypes = {
   children: PropTypes.node.isRequired,

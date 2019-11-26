@@ -39,14 +39,25 @@ const SearchScreen = props => {
       const url = `${apiService.getResultbyTitle}${searchStr}`
       setLoading(true)
       utils.fetchData(url).then(data => {
-        setResult({
-          comics: data.comics ? data.comics.slice(0, 3) : [],
-          fullResults: data.comics ? data.comics.slice(0, 10) : [],
-        })
+        if (data.comics) {
+          setResult({
+            comics: data.comics ? data.comics.slice(0, 3) : [],
+            fullResults: data.comics ? data.comics.slice(0, 10) : [],
+          })
+        } else {
+          setResult({
+            searchStr,
+            isNoResult: true,
+          })
+        }
+
         setLoading(false)
       })
     } else {
-      setResult({})
+      setResult({
+        searchStr,
+        isNoResult: true,
+      })
     }
   }
 
@@ -66,6 +77,13 @@ const SearchScreen = props => {
       <MainActivityIndicator />
     ) : (
       <FlatList
+        ListEmptyComponent={
+          results.searchStr &&
+          results.searchStr.length >= 3 &&
+          results.isNoResult && (
+            <Text style={styles.screenText}>{locale.noResult}</Text>
+          )
+        }
         data={results.comics}
         keyExtractor={item => item.title}
         renderItem={({ item }) => (
