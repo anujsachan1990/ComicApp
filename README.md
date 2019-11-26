@@ -1,5 +1,10 @@
 # ComicApp
 
+## prerequisite
+- Node v10.16.3
+- NPM V6.11.3
+
+
 ## Technology Stack
 - React JS 
 - React Native
@@ -16,6 +21,7 @@
 
 ## Other Commands
 
+- npm run test (run Test Cases)
 - npm run lint (for checking code quality rules)
 - npm run eject (for ejecting App)
  
