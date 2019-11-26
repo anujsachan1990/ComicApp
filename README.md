@@ -1,5 +1,9 @@
 # ComicApp
 
+## Demo
+
+![Demo](demo/app.gif)
+
 ## prerequisite
 - Node v10.16.3
 - NPM V6.11.3
