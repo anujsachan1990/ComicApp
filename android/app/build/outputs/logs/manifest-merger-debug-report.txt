@@ -1,0 +1,480 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:1:1-48:12
+MERGED from [:react-native-screens] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-gesture-handler] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.59.10] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-react-native-0.59.10.aar/bd4e785e9394509686c3b418f5bd9bac/AndroidManifest.xml:2:1-13:12
+MERGED from [:expo-permissions] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/60e74cf53688ad7fac7b1dbdbbd06196/AndroidManifest.xml:17:1-22:12
+MERGED from [:unimodules-react-native-adapter] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-app-loader-provider] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-app-loader-provider/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-constants] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-file-system] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-30:12
+MERGED from [:expo-font] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-font/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-keep-awake] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-keep-awake/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-linear-gradient] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-location] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-21:12
+MERGED from [:expo-sqlite] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-sqlite/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-web-browser] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-web-browser/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-barcode-scanner-interface] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-camera-interface] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-constants-interface] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-face-detector-interface] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-file-system-interface] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-font-interface] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-permissions-interface] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-task-manager-interface] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-core] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/@unimodules/core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-image-loader-interface] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-sensors-interface] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.transition:transition:1.1.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/transition-1.1.0.aar/7e34b268ffd17bbc632c854538efc57c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/browser-1.0.0.aar/a170532d4e32f61361a4e746146b151d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-play-services-location-16.0.0.aar/0a17dc5e19d438fa8ba2ac32994c540a/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/db496c55b639142e278f770464f09d61/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/d2707e2ee9aaa75dd13fb001649fa35e/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/1d496766486269e8d0a0bdd7f7642111/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/8aa9bad2293cc546a2206e83fa5cf59b/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/cccf6d84ccf153bc5c77ddaf3ad9a2c9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-glide-4.9.0.aar/d86b1d855f9f274d31ff47ab2e9f0bce/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/faaea69eab90904c169fc9d7af475c94/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/fec4559e188a85713342a2d7a2dfc919/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/98b735032b7a4fc6b5c8e56422c402a8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/98a3f167a16b9c37dfe479d9ff85a4fe/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.0.aar/02fd558999f58a242d108bc460c00123/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/0eb7840df08f0b56f508b83803f05031/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/e0751fdfe17233b38417720906b1e57f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/c951f99f5c82798490ed42993a9ac491/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/9d14df66d65a15583c7f06b7f4a8a5c7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/0c93d352c8c07fe778b4593cfad6f96b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/bf3bbacd76e833f64b9903dd3c19aed6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/b5bb9e6c2af00f84e8661ba721a9a206/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/6e7659ccc6eb848a15677b450965216c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/0a706394b3445f561387ada10f604d2b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/2534acee7086f04cd110ace7caac8591/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/afe7d72f2e57325a75403b16ec64a799/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/af23e9331e3cf36c36bf141c3474d2ae/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/3545bebd17222d0dfbe42f1167a32e43/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/5a0d30056c0970bff3207b3b35850f6e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/3a1cff3e1c10d0258bdad69efb486061/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/1d8ef6ed4a655778e73a353485e9eef9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/dfa43bb19810a7a2884a85cc586d82c1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/b088168b93f041e6a43c9d130ea85377/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/fed733a12a67fcefe79381806878c9bf/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/9332a2a6748050703e90a81e6fae6742/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/815a44462b6ecdf7887755757e34a97f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.9.0.aar/3819f5c6909080b00c518216c9e26e66/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-fresco-1.10.0.aar/08d1ecfbacd0a4cbd247acb6056339fa/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/5725a80f90e47d81986c459a9b7300fa/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-drawee-1.10.0.aar/6ed10ba2c288316fce3ad9087ad6d667/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-imagepipeline-1.10.0.aar/c432ed7ef6aca93abc4078163d506919/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-imagepipeline-base-1.10.0.aar/8ab895612cff830ea773b5d2504bd501/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/aaac5f755ac9190813d9c3674decaae5/AndroidManifest.xml:2:1-13:12
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/8c515d6c03894aaad1b98d51d2e0a3cf/AndroidManifest.xml:2:1-30:12
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-fbcore-1.10.0.aar/2357dd28aa4f37c265018c028cd35b47/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:1:1-48:12
+	package
+		ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:2:5-27
+		INJECTED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:1:1-48:12
+		INJECTED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:1:1-48:12
+		INJECTED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [:expo-file-system] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-67
+MERGED from [:expo-file-system] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:5:22-75
+uses-permission#android.permission.MANAGE_DOCUMENTS
+ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:8:5-75
+	android:name
+		ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:8:22-72
+uses-permission#android.permission.READ_INTERNAL_STORAGE
+ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:9:22-77
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:10:5-75
+	android:name
+		ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:10:22-72
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:11:5-74
+	android:name
+		ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:11:22-71
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:12:5-66
+	android:name
+		ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:12:22-63
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:13:22-77
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:16:5-81
+MERGED from [:expo-location] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-81
+MERGED from [:expo-location] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-81
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/8c515d6c03894aaad1b98d51d2e0a3cf/AndroidManifest.xml:12:5-81
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/8c515d6c03894aaad1b98d51d2e0a3cf/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:16:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:17:5-79
+MERGED from [:expo-location] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-79
+MERGED from [:expo-location] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/8c515d6c03894aaad1b98d51d2e0a3cf/AndroidManifest.xml:14:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/8c515d6c03894aaad1b98d51d2e0a3cf/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:17:22-76
+uses-permission#android.permission.CAMERA
+ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:18:5-65
+	android:name
+		ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:18:22-62
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:19:5-72
+	android:name
+		ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:19:22-69
+uses-permission#android.permission.READ_CALENDAR
+ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:20:5-72
+	android:name
+		ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:20:22-69
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:21:5-73
+	android:name
+		ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:21:22-70
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:22:5-80
+MERGED from [:expo-file-system] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-80
+MERGED from [:expo-file-system] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:22:22-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:23:5-71
+	android:name
+		ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:23:22-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:24:5-81
+MERGED from [:expo-file-system] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
+MERGED from [:expo-file-system] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:24:22-78
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:25:5-73
+	android:name
+		ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:25:22-70
+application
+ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:28:5-46:19
+MERGED from [com.facebook.react:react-native:0.59.10] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-react-native-0.59.10.aar/bd4e785e9394509686c3b418f5bd9bac/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.59.10] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-react-native-0.59.10.aar/bd4e785e9394509686c3b418f5bd9bac/AndroidManifest.xml:11:5-20
+MERGED from [:expo-file-system] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-28:19
+MERGED from [:expo-file-system] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-28:19
+MERGED from [:expo-location] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-19:19
+MERGED from [:expo-location] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-19:19
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-play-services-location-16.0.0.aar/0a17dc5e19d438fa8ba2ac32994c540a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-play-services-location-16.0.0.aar/0a17dc5e19d438fa8ba2ac32994c540a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/db496c55b639142e278f770464f09d61/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/db496c55b639142e278f770464f09d61/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/d2707e2ee9aaa75dd13fb001649fa35e/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/d2707e2ee9aaa75dd13fb001649fa35e/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/1d496766486269e8d0a0bdd7f7642111/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/1d496766486269e8d0a0bdd7f7642111/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/8aa9bad2293cc546a2206e83fa5cf59b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/8aa9bad2293cc546a2206e83fa5cf59b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-glide-4.9.0.aar/d86b1d855f9f274d31ff47ab2e9f0bce/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-glide-4.9.0.aar/d86b1d855f9f274d31ff47ab2e9f0bce/AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.0.1] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/2534acee7086f04cd110ace7caac8591/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/2534acee7086f04cd110ace7caac8591/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/afe7d72f2e57325a75403b16ec64a799/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/afe7d72f2e57325a75403b16ec64a799/AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.9.0.aar/3819f5c6909080b00c518216c9e26e66/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.9.0.aar/3819f5c6909080b00c518216c9e26e66/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/aaac5f755ac9190813d9c3674decaae5/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/aaac5f755ac9190813d9c3674decaae5/AndroidManifest.xml:11:5-20
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/8c515d6c03894aaad1b98d51d2e0a3cf/AndroidManifest.xml:18:5-28:19
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/8c515d6c03894aaad1b98d51d2e0a3cf/AndroidManifest.xml:18:5-28:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.1] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/2534acee7086f04cd110ace7caac8591/AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:30:7-39
+	android:roundIcon
+		ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:32:7-52
+	android:icon
+		ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:31:7-41
+	android:allowBackup
+		ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:33:7-34
+	android:theme
+		ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:34:7-38
+	android:name
+		ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:29:7-38
+activity#com.comicapp.MainActivity
+ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:35:7-44:18
+	android:label
+		ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:37:9-41
+	android:windowSoftInputMode
+		ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:39:9-51
+	android:configChanges
+		ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:38:9-79
+	android:name
+		ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:36:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:40:9-43:25
+action#android.intent.action.MAIN
+ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:41:13-65
+	android:name
+		ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:41:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:42:13-73
+	android:name
+		ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:42:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:45:7-84
+	android:name
+		ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml:45:17-81
+uses-sdk
+INJECTED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-screens] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.59.10] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-react-native-0.59.10.aar/bd4e785e9394509686c3b418f5bd9bac/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.59.10] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-react-native-0.59.10.aar/bd4e785e9394509686c3b418f5bd9bac/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-permissions] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-permissions] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/60e74cf53688ad7fac7b1dbdbbd06196/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/60e74cf53688ad7fac7b1dbdbbd06196/AndroidManifest.xml:20:5-44
+MERGED from [:unimodules-react-native-adapter] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-react-native-adapter] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-app-loader-provider] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-app-loader-provider/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-app-loader-provider] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-app-loader-provider/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-constants] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-constants] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-file-system] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [:expo-file-system] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [:expo-font] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-font/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-font] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-font/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-keep-awake] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-keep-awake/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-keep-awake] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-keep-awake/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-linear-gradient] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-linear-gradient] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-location] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-location] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-sqlite] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-sqlite/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-sqlite] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-sqlite/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-web-browser] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-web-browser/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-web-browser] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-web-browser/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-barcode-scanner-interface] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-barcode-scanner-interface] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/unimodules-barcode-scanner-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-camera-interface] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-camera-interface] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/unimodules-camera-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-constants-interface] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-constants-interface] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/unimodules-constants-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-face-detector-interface] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-face-detector-interface] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/unimodules-face-detector-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-file-system-interface] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-file-system-interface] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/unimodules-file-system-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-font-interface] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-font-interface] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/unimodules-font-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-permissions-interface] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-permissions-interface] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-task-manager-interface] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-task-manager-interface] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-core] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/@unimodules/core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-core] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/@unimodules/core/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-image-loader-interface] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-image-loader-interface] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/unimodules-image-loader-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-sensors-interface] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-sensors-interface] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/unimodules-sensors-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.transition:transition:1.1.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/transition-1.1.0.aar/7e34b268ffd17bbc632c854538efc57c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.1.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/transition-1.1.0.aar/7e34b268ffd17bbc632c854538efc57c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/browser-1.0.0.aar/a170532d4e32f61361a4e746146b151d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/browser-1.0.0.aar/a170532d4e32f61361a4e746146b151d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-play-services-location-16.0.0.aar/0a17dc5e19d438fa8ba2ac32994c540a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-play-services-location-16.0.0.aar/0a17dc5e19d438fa8ba2ac32994c540a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/db496c55b639142e278f770464f09d61/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/db496c55b639142e278f770464f09d61/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/d2707e2ee9aaa75dd13fb001649fa35e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/d2707e2ee9aaa75dd13fb001649fa35e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/1d496766486269e8d0a0bdd7f7642111/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/1d496766486269e8d0a0bdd7f7642111/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/8aa9bad2293cc546a2206e83fa5cf59b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/8aa9bad2293cc546a2206e83fa5cf59b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/cccf6d84ccf153bc5c77ddaf3ad9a2c9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/cccf6d84ccf153bc5c77ddaf3ad9a2c9/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-glide-4.9.0.aar/d86b1d855f9f274d31ff47ab2e9f0bce/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-glide-4.9.0.aar/d86b1d855f9f274d31ff47ab2e9f0bce/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/faaea69eab90904c169fc9d7af475c94/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/faaea69eab90904c169fc9d7af475c94/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/fec4559e188a85713342a2d7a2dfc919/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/fec4559e188a85713342a2d7a2dfc919/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/98b735032b7a4fc6b5c8e56422c402a8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/98b735032b7a4fc6b5c8e56422c402a8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/98a3f167a16b9c37dfe479d9ff85a4fe/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/98a3f167a16b9c37dfe479d9ff85a4fe/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.0.aar/02fd558999f58a242d108bc460c00123/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.0.aar/02fd558999f58a242d108bc460c00123/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/0eb7840df08f0b56f508b83803f05031/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/0eb7840df08f0b56f508b83803f05031/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/e0751fdfe17233b38417720906b1e57f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/e0751fdfe17233b38417720906b1e57f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/c951f99f5c82798490ed42993a9ac491/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/c951f99f5c82798490ed42993a9ac491/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/9d14df66d65a15583c7f06b7f4a8a5c7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/9d14df66d65a15583c7f06b7f4a8a5c7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/0c93d352c8c07fe778b4593cfad6f96b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/0c93d352c8c07fe778b4593cfad6f96b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/bf3bbacd76e833f64b9903dd3c19aed6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/bf3bbacd76e833f64b9903dd3c19aed6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/b5bb9e6c2af00f84e8661ba721a9a206/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/b5bb9e6c2af00f84e8661ba721a9a206/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/6e7659ccc6eb848a15677b450965216c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/6e7659ccc6eb848a15677b450965216c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/0a706394b3445f561387ada10f604d2b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/0a706394b3445f561387ada10f604d2b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/2534acee7086f04cd110ace7caac8591/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/2534acee7086f04cd110ace7caac8591/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/afe7d72f2e57325a75403b16ec64a799/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/afe7d72f2e57325a75403b16ec64a799/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/af23e9331e3cf36c36bf141c3474d2ae/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/af23e9331e3cf36c36bf141c3474d2ae/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/3545bebd17222d0dfbe42f1167a32e43/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/3545bebd17222d0dfbe42f1167a32e43/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/5a0d30056c0970bff3207b3b35850f6e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/5a0d30056c0970bff3207b3b35850f6e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/3a1cff3e1c10d0258bdad69efb486061/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/3a1cff3e1c10d0258bdad69efb486061/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/1d8ef6ed4a655778e73a353485e9eef9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/1d8ef6ed4a655778e73a353485e9eef9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/dfa43bb19810a7a2884a85cc586d82c1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/dfa43bb19810a7a2884a85cc586d82c1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/b088168b93f041e6a43c9d130ea85377/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/b088168b93f041e6a43c9d130ea85377/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/fed733a12a67fcefe79381806878c9bf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/fed733a12a67fcefe79381806878c9bf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/9332a2a6748050703e90a81e6fae6742/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/9332a2a6748050703e90a81e6fae6742/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/815a44462b6ecdf7887755757e34a97f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/815a44462b6ecdf7887755757e34a97f/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.9.0.aar/3819f5c6909080b00c518216c9e26e66/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.9.0.aar/3819f5c6909080b00c518216c9e26e66/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-fresco-1.10.0.aar/08d1ecfbacd0a4cbd247acb6056339fa/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-fresco-1.10.0.aar/08d1ecfbacd0a4cbd247acb6056339fa/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/5725a80f90e47d81986c459a9b7300fa/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/5725a80f90e47d81986c459a9b7300fa/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-drawee-1.10.0.aar/6ed10ba2c288316fce3ad9087ad6d667/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-drawee-1.10.0.aar/6ed10ba2c288316fce3ad9087ad6d667/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-imagepipeline-1.10.0.aar/c432ed7ef6aca93abc4078163d506919/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-imagepipeline-1.10.0.aar/c432ed7ef6aca93abc4078163d506919/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-imagepipeline-base-1.10.0.aar/8ab895612cff830ea773b5d2504bd501/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-imagepipeline-base-1.10.0.aar/8ab895612cff830ea773b5d2504bd501/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/aaac5f755ac9190813d9c3674decaae5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/aaac5f755ac9190813d9c3674decaae5/AndroidManifest.xml:7:5-9:41
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/8c515d6c03894aaad1b98d51d2e0a3cf/AndroidManifest.xml:8:5-10:41
+MERGED from [io.nlopez.smartlocation:library:3.2.11] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/8c515d6c03894aaad1b98d51d2e0a3cf/AndroidManifest.xml:8:5-10:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-fbcore-1.10.0.aar/2357dd28aa4f37c265018c028cd35b47/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-fbcore-1.10.0.aar/2357dd28aa4f37c265018c028cd35b47/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/anuj.sachan/Desktop/finalTest/ComicApp/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.STORAGE
+ADDED from [:expo-file-system] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-66
+	android:name
+		ADDED from [:expo-file-system] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-63
+provider#expo.modules.filesystem.FileSystemFileProvider
+ADDED from [:expo-file-system] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-27:20
+	android:grantUriPermissions
+		ADDED from [:expo-file-system] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-47
+	android:authorities
+		ADDED from [:expo-file-system] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-74
+	android:exported
+		ADDED from [:expo-file-system] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-37
+	tools:replace
+		ADDED from [:expo-file-system] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-48
+	android:name
+		ADDED from [:expo-file-system] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-74
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:expo-file-system] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-26:70
+	android:resource
+		ADDED from [:expo-file-system] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:17-67
+	android:name
+		ADDED from [:expo-file-system] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-67
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [:expo-location] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-77
+	android:name
+		ADDED from [:expo-location] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-74
+service#expo.modules.location.services.LocationTaskService
+ADDED from [:expo-location] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-18:40
+	android:exported
+		ADDED from [:expo-location] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:expo-location] /Users/anuj.sachan/Desktop/finalTest/ComicApp/node_modules/expo-location/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-78
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/db496c55b639142e278f770464f09d61/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/db496c55b639142e278f770464f09d61/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/db496c55b639142e278f770464f09d61/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/db496c55b639142e278f770464f09d61/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/8aa9bad2293cc546a2206e83fa5cf59b/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/8aa9bad2293cc546a2206e83fa5cf59b/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/8aa9bad2293cc546a2206e83fa5cf59b/AndroidManifest.xml:24:13-58
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/8c515d6c03894aaad1b98d51d2e0a3cf/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/8c515d6c03894aaad1b98d51d2e0a3cf/AndroidManifest.xml:13:22-76
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/8c515d6c03894aaad1b98d51d2e0a3cf/AndroidManifest.xml:15:5-98
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/8c515d6c03894aaad1b98d51d2e0a3cf/AndroidManifest.xml:15:22-95
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/8c515d6c03894aaad1b98d51d2e0a3cf/AndroidManifest.xml:16:5-94
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/8c515d6c03894aaad1b98d51d2e0a3cf/AndroidManifest.xml:16:22-91
+service#io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/8c515d6c03894aaad1b98d51d2e0a3cf/AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/8c515d6c03894aaad1b98d51d2e0a3cf/AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/8c515d6c03894aaad1b98d51d2e0a3cf/AndroidManifest.xml:20:13-132
+service#io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/8c515d6c03894aaad1b98d51d2e0a3cf/AndroidManifest.xml:22:9-24:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/8c515d6c03894aaad1b98d51d2e0a3cf/AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/8c515d6c03894aaad1b98d51d2e0a3cf/AndroidManifest.xml:23:13-127
+service#io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/8c515d6c03894aaad1b98d51d2e0a3cf/AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/8c515d6c03894aaad1b98d51d2e0a3cf/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] /Users/anuj.sachan/.gradle/caches/transforms-1/files-1.1/jetified-library-3.2.11.aar/8c515d6c03894aaad1b98d51d2e0a3cf/AndroidManifest.xml:26:13-120
